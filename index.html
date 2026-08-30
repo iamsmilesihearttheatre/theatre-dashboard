@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Theatre Dashboard</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: #08000f;
+      width: 100%;
+      min-height: 100%;
+    }
+
+    .stage {
+      position: relative;
+      width: 100%;
+      max-width: 1536px;
+      margin: 0 auto;
+      line-height: 0;
+    }
+
+    .stage img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    .hotspot {
+      position: absolute;
+      display: block;
+      z-index: 2;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    /* Clickable area over JACKSON STATE UNIVERSITY */
+    .jackson {
+      left: 13%;
+      top: 34%;
+      width: 22%;
+      height: 24%;
+    }
+
+    /* Clickable area over NEW STAGE THEATRE */
+    .new-stage {
+      left: 38%;
+      top: 35%;
+      width: 24%;
+      height: 23%;
+    }
+
+    /* Clickable area over ENNEAGRAM & THE ARTIST */
+    .enneagram {
+      left: 65%;
+      top: 34%;
+      width: 23%;
+      height: 27%;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="stage">
+
+    <img
+      src="theatre-dashboard.png"
+      alt="Interactive Theatre Dashboard"
+    >
+
+    <a
+      class="hotspot jackson"
+      href="https://app.notion.com/p/Jackson-State-University-3cce96a69334800880e6dc5e661ff469?source=copy_link"
+      target="_blank"
+      rel="noopener"
+      aria-label="Jackson State University"
+      title="Jackson State University">
+    </a>
+
+    <a
+      class="hotspot new-stage"
+      href="https://app.notion.com/p/New-Stage-Theatre-3cce96a6933480a0b58cf5ca9b2c6b51?source=copy_link"
+      target="_blank"
+      rel="noopener"
+      aria-label="New Stage Theatre"
+      title="New Stage Theatre">
+    </a>
+
+    <a
+      class="hotspot enneagram"
+      href="https://app.notion.com/p/Enneagram-the-Artitst-3cce96a693348026bae2cef5817d15cb?source=copy_link"
+      target="_blank"
+      rel="noopener"
+      aria-label="Enneagram & the Artist"
+      title="Enneagram & the Artist">
+    </a>
+
+  </div>
+</body>
+</html>
